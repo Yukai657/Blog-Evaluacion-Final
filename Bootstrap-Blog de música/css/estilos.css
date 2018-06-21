@@ -1,0 +1,17 @@
+.body{
+  background: #f9a825;
+}
+.header{
+  background: #ffeb3b
+}
+
+.social-icons{
+  width: 2.5rem;
+  margin-top: 2.0rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav-back{
+  background: #fff176;
+}
