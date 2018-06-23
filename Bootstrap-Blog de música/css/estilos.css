@@ -40,3 +40,21 @@
   background: #fff9c4;
   margin: 5px 0px;
 }
+
+.img-publi{
+  margin: 5px;
+}
+
+@media (max-width: 576px) {
+  .hide-on-xs{
+    display: none;
+  }
+}
+
+.img-perfil{
+  width: 100%;
+}
+
+.comentario{
+  margin-bottom: 5px;
+}
