@@ -53,8 +53,23 @@
 
 .img-perfil{
   width: 100%;
+  padding: 0;
+  border: solid 1px #f5f5f5;
+  margin-bottom: 5px;
 }
 
 .comentario{
   margin-bottom: 5px;
+}
+
+.barra-busq{
+  margin-top: 5px;
+}
+
+.list-group-item{
+  background-color: #fff0;
+}
+
+p{
+  text-indent: 20px;
 }
