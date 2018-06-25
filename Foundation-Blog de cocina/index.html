@@ -16,7 +16,7 @@
       <div class="grid-x header">
         <div class="cell large-4 medium-4 small-12 title">
             <h1>Cocina para todos</h1>
-            <p class="text-right">El blog donde amateurs y profesionales pueden aprender cosas nuevas en la cocina...</p>
+            <p class="text-right" style="color: white">El blog donde amateurs y profesionales pueden aprender cosas nuevas en la cocina...</p>
         </div>
         <div class="cell auto">
         </div>
@@ -27,14 +27,16 @@
         <div class="cell large-4 medium-4 hide-for-small-only title">
           <div class="grid-container lateral">
             <!--busqueda-->
-            <div class="grid-x busqueda">
-              <div class="cell large-11 medium-11">
-                <input type="search" placeholder="Buscar...">
+            <form>
+              <div class="input-group">
+                <div class="input-group busqueda">
+                  <input class="input-group-field" type="text" placeholder="Buscar...">
+                  <div class="input-group-button">
+                    <button type="submit" name="enviar" class="button"><i class="step fi-magnifying-glass"></i></button>
+                  </div>
+                </div>
               </div>
-              <div class="cell auto">
-                <button type="submit" class="button"><i class="step fi-magnifying-glass"></i></button>
-              </div>
-            </div>
+            </form>
             <!--menu-->
             <nav>
               <ul class="vertical menu align-center">
@@ -94,7 +96,108 @@
         </div>
         <!--publicaciones-->
         <div class="cell auto">
+          <div class="grid-container">
+            <!--publicacion1-->
+            <div class="grid-x publis">
+              <div class="grid-container full">
+                <h2>Gaspacho de aguacate y manzanas</h2>
+                <p class="textcolor">18 de Junio de 2018</p>
+                <hr>
+                <img src="img/gazpacho.jpg" class="thumbnail img-publi">
+                <p>Un gazpacho es una crema fría con el tomate como ingrediente base. En este caso, he llamado gazpacho a este plato a pesar de que el tomate no está incluido en la lista de ingredientes. Entonces, ¿por qué ese nombre? Porque lleva cebolla y pimiento y está aliñado de manera similar. Si lo prefieres, podríamos denominarlo sopa fría de aguacate y manzana.<br><a href="#">Leer más...</a></p>
+                <hr>
+                <form>
+                  <label>
+                  Escribe un comentario:
+                  <textarea placeholder="Escribir un comentario..."></textarea>
+                  </label>
+                  <button type="submit" name="button" class="button float-right"><i class="step fi-pencil"></i>Publicar</button>
+                </form>
+                <br><br><br>
+                <div class="grid-container coms">
+                  <div class="grid-x">
+                    <div class="cell small-1">
+                      <img src="img/av1.png" class="avatar">
+                    </div>
+                    <div class="cell small-11 com">
+                      <p><b>Mario876:</b> Excelente receta y muy fácil!!!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-container coms">
+                  <div class="grid-x">
+                    <div class="cell small-1">
+                      <img src="img/av2.png" class="avatar">
+                    </div>
+                    <div class="cell small-11 com">
+                      <p><b>Owen596:</b> Tan fácil que no parece real!!!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-container coms">
+                  <div class="grid-x">
+                    <div class="cell small-1">
+                      <img src="img/av3.png" class="avatar">
+                    </div>
+                    <div class="cell small-11 com">
+                      <p><b>m@ry32:</b> La hice el otro día con mis hijos y les encancto ;D</p>
+                    </div>
+                  </div>
+                </div>
 
+              </div>
+            </div>
+            <!--publicacion2-->
+            <div class="grid-x publis">
+              <div class="grid-container full">
+                <h2>Presa ibérica marinada estilo oriental</h2>
+                <p class="textcolor">17 de Junio de 2018</p>
+                <hr>
+                <img src="img/presa.jpg" class="thumbnail img-publi">
+                <p>La presa de cerdo es un corte de carne que se encuentra sobre la paletilla, concretamente en la escápula, lo que sería el hombro, formando parte del cabecero del lomo. De cada animal se extraen dos presas de unos 500 gramos, siendo de las piezas más preciadas del cerdo por ser de las más veteadas de grasa intramuscular, lo que hace que sean muy jugosas y sabrosas. La pieza de carne de presa tiene forma ovalada y aunque su sabor es muy rico siempre, se nota la diferencia cuando la carne procede de cerdo ibérico..<br><a href="#">Leer más...</a></p>
+                <hr>
+                <form>
+                  <label>
+                  Escribe un comentario:
+                  <textarea placeholder="Escribir un comentario..."></textarea>
+                  </label>
+                  <button type="submit" name="button" class="button float-right"><i class="step fi-pencil"></i>Publicar</button>
+                </form>
+                <br><br><br>
+                <div class="grid-container coms">
+                  <div class="grid-x">
+                    <div class="cell small-1">
+                      <img src="img/av1.png" class="avatar">
+                    </div>
+                    <div class="cell small-11 com">
+                      <p><b>Mario876:</b> Excelente receta y muy fácil!!!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-container coms">
+                  <div class="grid-x">
+                    <div class="cell small-1">
+                      <img src="img/av2.png" class="avatar">
+                    </div>
+                    <div class="cell small-11 com">
+                      <p><b>Owen596:</b> Tan fácil que no parece real!!!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-container coms">
+                  <div class="grid-x">
+                    <div class="cell small-1">
+                      <img src="img/av3.png" class="avatar">
+                    </div>
+                    <div class="cell small-11 com">
+                      <p><b>m@ry32:</b> La hice el otro día con mis hijos y les encancto ;D</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
