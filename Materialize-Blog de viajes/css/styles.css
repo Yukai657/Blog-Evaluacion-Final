@@ -8,9 +8,6 @@
 }
 
 @media (max-width:576px) {
-  .body{
-    background-position: 0 8rem;
-  }
   nav ul a.btn{
     padding: 1px;
     margin: 1px !important;
