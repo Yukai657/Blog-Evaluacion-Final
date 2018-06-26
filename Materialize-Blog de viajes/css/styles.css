@@ -7,10 +7,13 @@
   background-attachment: fixed;
 }
 
-@media (max-width:576px) {
+@media (max-width:1024px) {
   nav ul a.btn{
     padding: 1px;
     margin: 1px !important;
+  }
+  .hide{
+    display: none;
   }
 }
 
@@ -68,6 +71,7 @@ nav{
 
 p{
   text-indent: 10px;
+  text-align: justify;
 }
 
 .mpubli{
