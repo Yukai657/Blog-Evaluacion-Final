@@ -1,0 +1,87 @@
+.body{
+  background: url(../img/bg.jpg);
+  background-color: #f9fbe7;
+  background-position: 0 7rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width:576px) {
+  .body{
+    background-position: 0 8rem;
+  }
+  nav ul a.btn{
+    padding: 1px;
+    margin: 1px !important;
+  }
+}
+
+.logo{
+  width: 100%;
+  border: solid 5px #f9fbe7;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+nav ul a.btn{
+  margin: 2px;
+}
+
+nav{
+  background-color: #ffffff00;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.btn{
+  background-color: #80cbc4;
+}
+
+.slogan{
+  margin: 0 0 0 0;
+  color: #000000;
+}
+
+.social-list{
+  list-style: none;
+}
+
+.social-icons{
+  width: 50px;
+  border-radius: 10px;
+}
+
+.imgs{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.back{
+  background: #ffffff;
+  padding: 5px;
+}
+
+.backc{
+  background-color: #f9fbe7;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+p{
+  text-indent: 10px;
+}
+
+.mpubli{
+  margin-bottom: 20px;
+}
+
+.perfil{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.desc{
+  text-indent: 0;
+}
